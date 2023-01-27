@@ -14,11 +14,28 @@ typedef pair<int, int> PII;
 const int N = 1e5 + 10;
 
 int main() {
-    cin.tie(0);
-    cout.tie(0);
+    cin.tie(0); cout.tie(0);
     std::ios::sync_with_stdio(false);
 
     // start coding!
 
-    
+    int T;
+    cin >> T;
+    while(T --) {
+        int n, s, r, mx;
+        cin >> n >> s >> r;
+        cout << (s - r) << ' ';
+
+        mx = s - r;
+        r -= n - 1;
+        for(int i = 1; i <= n - 1; i ++) {
+            int t = min(mx - 1, r);
+            r -= t;
+            cout << (1 + t) << ' ';
+        }
+
+        cout << "\n";
+    }
+
+    return 0;
 }
