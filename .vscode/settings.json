@@ -10,6 +10,8 @@
         "deque": "cpp",
         "string": "cpp",
         "vector": "cpp",
-        "functional": "cpp"
+        "functional": "cpp",
+        "cmath": "cpp",
+        "complex": "cpp"
     }
 }
