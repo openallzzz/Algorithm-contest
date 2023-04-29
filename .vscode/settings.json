@@ -15,6 +15,7 @@
         "complex": "cpp",
         "algorithm": "cpp",
         "iterator": "cpp",
-        "numeric": "cpp"
+        "numeric": "cpp",
+        "queue": "cpp"
     }
 }
