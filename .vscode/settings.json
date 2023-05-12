@@ -16,6 +16,8 @@
         "algorithm": "cpp",
         "iterator": "cpp",
         "numeric": "cpp",
-        "queue": "cpp"
+        "queue": "cpp",
+        "cstring": "cpp",
+        "typeinfo": "cpp"
     }
 }
