@@ -18,6 +18,7 @@
         "numeric": "cpp",
         "queue": "cpp",
         "cstring": "cpp",
-        "typeinfo": "cpp"
+        "typeinfo": "cpp",
+        "istream": "cpp"
     }
 }
