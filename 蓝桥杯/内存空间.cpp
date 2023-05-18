@@ -59,7 +59,7 @@ void solve(string s) {
 int main() {
     int T;
     cin >> T;
-    getchar(); // 读取无用的换行符
+    getchar(); // 读取该行的的换行符，防止getline函数读取错误数据
     string line;
     while(T -- ) {
         getline(cin, line);
